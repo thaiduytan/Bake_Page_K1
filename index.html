@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bake</title>
+
+		<!-- CSS reset -->
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+
+		<!-- Font awesome -->
+		<!-- font goole -->
+	</head>
+	<body>
+		<!-- Header -->
+		<header id="header">
+			<div class="header-container">
+				<div class="header-wrapper">
+					<!-- LOGO -->
+					<div class="header-logo">
+						<p>BAKE</p>
+					</div>
+
+					<!-- NAVIGATION -->
+					<nav class="header-nav">
+						<ul id="nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Service</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Clients</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+        <!-- Intro -->
+         <section id="intro">
+            <div class="intro-content">
+                <h1>Best Bake Here</h1>
+                <p>Donec at massa nec sem eleifend fermentum.</p>
+                <button>LEARN MORE</button>
+            </div>
+         </section>
+
+		<script>
+			const nav = document.getElementById("nav");
+			const listNav = nav.getElementsByTagName("li");
+
+			for (let i = 0; i < listNav.length; i++) {
+
+				listNav[i].addEventListener("click", function () {
+					const current = document.querySelector("#nav .active");
+                    current.className = current.className.replace("active", "");
+                    
+					this.className += "active";
+				});
+			}
+		</script>
+	</body>
+</html>
