@@ -191,3 +191,130 @@ body {
 .intro-b-item:nth-child(6) {
   background-color: #836eaa;
 }
+
+/* Stats */
+#stats {
+  padding: 5rem 1rem;
+  background-color: white;
+}
+.stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.stats-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20;
+}
+.stats-tiem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.stats-tiem h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.stats-tiem p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: var(--text-black);
+}
+
+/* service */
+#service {
+  background-image: url("../assets/service/service_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0;
+}
+.service-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.service-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.service-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-wrapper h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-white);
+
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.service-item:hover i {
+  color: var(--primary-color);
+}
+
+.service-item i {
+  border: 1px solid var(--secondary-color);
+  border-radius: 50%;
+  background-color: white;
+  color: var(--secondary-color);
+  font-size: 3.75rem;
+  transition: all 0.5s;
+
+  width: 105px;
+  height: 105px;
+  line-height: 105px;
+}
+
+.service-item i:hover {
+  color: var(--primary-color);
+}
+
+.service-item h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-black);
+}
+
+.service-item p {
+  font-size: 0.875rem;
+  color: var(--text-black);
+}
+
+.service-item button {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.875rem 2rem;
+  font-size: 0.875rem;
+
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.service-item button:hover {
+  background-color: white;
+  color: var(--text-black);
+  border-color: var(--primary-color);
+}
