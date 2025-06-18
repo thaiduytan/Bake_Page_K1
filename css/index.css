@@ -13,6 +13,34 @@ body {
   font-size: 16px;
 }
 
+.btn-bake {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.875rem 2rem;
+  font-size: 0.875rem;
+
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.btn-bake:hover {
+  background-color: white;
+  color: var(--text-black);
+  border-color: var(--primary-color);
+}
+
+.btn-contact:hover {
+  background-color: black;
+  color: var(--text-white);
+}
+
+.btn-email{
+  padding: 0.5rem 1rem;
+}
+
 #header {
   width: 100%;
   padding: 20px 0;
@@ -113,19 +141,6 @@ body {
   color: var(--text-white);
 
   padding: 1.5rem 0;
-}
-
-.intro-content button {
-  background-color: var(--primary-color);
-  color: var(--text-white);
-  border: 1px solid white;
-
-  border-radius: 5px;
-  padding: 0.813rem 2rem;
-  font-size: 0.875rem;
-  cursor: pointer;
-  letter-spacing: 1px;
-  transition: all 0.5s;
 }
 
 .intro-b-list {
@@ -298,25 +313,6 @@ body {
 .service-item p {
   font-size: 0.875rem;
   color: var(--text-black);
-}
-
-.service-item button {
-  background-color: var(--primary-color);
-  color: var(--text-white);
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 0.875rem 2rem;
-  font-size: 0.875rem;
-
-  cursor: pointer;
-  letter-spacing: 1px;
-  transition: all 0.5s;
-}
-
-.service-item button:hover {
-  background-color: white;
-  color: var(--text-black);
-  border-color: var(--primary-color);
 }
 
 /* Gallery */
@@ -719,11 +715,6 @@ body {
   transition: all 0.5s;
 }
 
-/* .contact-form-input:focus {
-  outline: none;
-  border-color: var(--primary-color);
-} */
-
 .contact-form-item textarea {
   padding: 15px;
   font-size: 1rem;
@@ -735,7 +726,7 @@ body {
   height: 150px;
 }
 
-.contact-form button {
+/* .contact-form button {
   cursor: pointer;
   transition: all 0.5s;
 
@@ -749,4 +740,4 @@ body {
 .contact-form button:hover {
   background-color: black;
   color: var(--text-white);
-}
+} */
