@@ -15,7 +15,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     />
-    <!-- font goole -->
+
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -47,7 +56,7 @@
       <div class="intro-content">
         <h1>Best Bake Here</h1>
         <p>Donec at massa nec sem eleifend fermentum.</p>
-        <button>LEARN MORE</button>
+        <button class="btn-bake">LEARN MORE</button>
       </div>
     </section>
 
@@ -162,28 +171,28 @@
               <i class="fa fa-adjust"></i>
               <h3>Tasty Cakes</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <button>Learn more</button>
+              <button class="btn-bake">Learn more</button>
             </div>
 
             <div class="service-item">
               <i class="fa fa-adjust"></i>
               <h3>Tasty Cakes</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <button>Learn more</button>
+              <button class="btn-bake">Learn more</button>
             </div>
 
             <div class="service-item">
               <i class="fa fa-adjust"></i>
               <h3>Tasty Cakes</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <button>Learn more</button>
+              <button class="btn-bake">Learn more</button>
             </div>
 
             <div class="service-item">
               <i class="fa fa-adjust"></i>
               <h3>Tasty Cakes</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <button>Learn more</button>
+              <button class="btn-bake">Learn more</button>
             </div>
           </div>
         </div>
@@ -424,16 +433,47 @@
       <div class="feedback-container">
         <div class="feedback-wrapper">
           <h2>TESTIMONIALS</h2>
+
           <div class="feedback-carousel">
-            <!-- item 1 -->
-            <div class="feedback-item">
-              <p>
-                <i class="fa fa-quote-left"></i> Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Doloribus, quis blanditiis!
-                Similique soluta repellendus recusandae omnis eius! Explicabo,
-                aliquid recusandae. <i class="fa fa-quote-right"></i>
-              </p>
-              <p class="feedback-name">WILLSOM</p>
+            <div class="owl-carousel owl-theme">
+              <div class="item feedback-item">
+                <div class="feedback-item">
+                  <p>
+                    <i class="fa fa-quote-left"></i> Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Doloribus, quis blanditiis!
+                    Similique soluta repellendus recusandae omnis eius!
+                    Explicabo, aliquid recusandae.
+                    <i class="fa fa-quote-right"></i>
+                  </p>
+                  <p class="feedback-name">WILLSOM</p>
+                </div>
+              </div>
+
+              <div class="item feedback-item">
+                <div class="feedback-item">
+                  <p>
+                    <i class="fa fa-quote-left"></i> Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Doloribus, quis blanditiis!
+                    Similique soluta repellendus recusandae omnis eius!
+                    Explicabo, aliquid recusandae.
+                    <i class="fa fa-quote-right"></i>
+                  </p>
+                  <p class="feedback-name">WILLSOM</p>
+                </div>
+              </div>
+
+              <div class="item feedback-item">
+                <div class="feedback-item">
+                  <p>
+                    <i class="fa fa-quote-left"></i> Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Doloribus, quis blanditiis!
+                    Similique soluta repellendus recusandae omnis eius!
+                    Explicabo, aliquid recusandae.
+                    <i class="fa fa-quote-right"></i>
+                  </p>
+                  <p class="feedback-name">WILLSOM</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -442,10 +482,10 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="contact-container">
-        <div class="contact-wrapper">
-          <h2>CONTACT</h2>
+      <div class="contact-wrapper">
+        <h2>CONTACT</h2>
 
+        <div class="contact-container">
           <div class="contact-form">
             <div class="contact-form-item">
               <input
@@ -478,6 +518,37 @@
             </div>
 
             <button class="btn btn-bake btn-contact">Send</button>
+          </div>
+        </div>
+
+        <div style="width: 100%" class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.4666583245644!2d105.71033207435005!3d9.291852984820466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a109680bdfcedb%3A0x164be594d824ba50!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBC4bqhYyBMacOqdQ!5e0!3m2!1svi!2s!4v1750490878338!5m2!1svi!2s"
+            style="width: 100%"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fa fa-home"></i>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="contact-item">
+            <i class="fa fa-phone"></i>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="contact-item">
+            <i class="fa fa-envelope-open"></i>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
       </div>
@@ -550,7 +621,7 @@
 
             <div class="footer-item fi-3">
               <div class="footer-title">Twitter Us</div>
-              
+
               <div class="footer-list-twitter">
                 <div class="footer-item-twitter">
                   <p>ultricies nec, pellentesque eu, pretium quis</p>
@@ -585,7 +656,14 @@
       </div>
     </footer>
 
-    <!-- Clients -->
+    <!-- import Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
     <!-- JS -->
     <script>
       const nav = document.getElementById("nav")
@@ -599,6 +677,32 @@
           this.className += "active"
         })
       }
+    </script>
+
+    <!-- Owl Carousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+
+        center:true,
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash',
+
+        responsive: {
+          0: {
+            items: 1,
+          },
+        },
+      })
     </script>
   </body>
 </html>
