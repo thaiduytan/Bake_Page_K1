@@ -3,18 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bake</title>
+    <title>INSTRUCTION</title>
 
     <!-- CSS reset -->
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     />
+    <!-- <link href="./assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="./assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="./assets/fontawesome/css/solid.css" rel="stylesheet" />
+    <link href="./assets/fontawesome/css/sharp-thin.css" rel="stylesheet" />
+    <link href="./assets/fontawesome/css/duotone-thin.css" rel="stylesheet" />
+    <link
+      href="./assets/fontawesome/css/sharp-duotone-thin.css"
+      rel="stylesheet"
+    /> -->
 
     <!-- Owl Carousel -->
     <link
@@ -29,632 +46,53 @@
   <body>
     <!-- Header -->
     <header id="header">
-      <div class="header-container">
-        <div class="header-wrapper">
-          <!-- LOGO -->
+      <div class="header-top">
+        <div class="header-contact">
+          <a href="tel:0916909522"
+            ><i class="fas fa-phone-alt"></i> 091.690.9522</a
+          >
+          <a href="mailto:info@cybersoft.edu.vn"
+            ><i class="far fa-envelope"></i> info@Learn.edu.vn</a
+          >
+        </div>
+        <div class="header-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="header-main">
+        <div class="header-main-wrapper container">
           <div class="header-logo">
-            <p>BAKE</p>
+            <a href="#">
+              <p><i class="fa fa-book"></i> INSTRUCTION</p>
+              <p>EDUCATION</p>
+            </a>
           </div>
-
-          <!-- NAVIGATION -->
           <nav class="header-nav">
-            <ul id="nav">
-              <li class="active"><a href="#">Home</a></li>
+            <ul class="header-nav-list">
+              <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Service</a></li>
+              <li><a href="#">Services</a></li>
               <li><a href="#">Gallery</a></li>
-              <li><a href="#">Clients</a></li>
+              <li class="dropdown">
+                <a href="#">Pages</a>
+                <i class="fa-solid fa-chevron-down"></i>
+
+                <div class="dropdown-menu">
+                  <p>Page 1</p>
+                  <ap>Page 2</ap>
+                  <ap>Page 3</ap>
+                </div>
+              </li>
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-
-    <!-- Intro -->
-    <section id="intro">
-      <div class="intro-content">
-        <h1>Best Bake Here</h1>
-        <p>Donec at massa nec sem eleifend fermentum.</p>
-        <button class="btn-bake">LEARN MORE</button>
-      </div>
-    </section>
-
-    <!-- Intro bottom -->
-    <section class="intro-bottom" id="intro-bottom">
-      <div class="intro-bottom-container">
-        <div class="intro-b-list">
-          <!-- row 1 -->
-          <div class="intro-b-item intro-text">
-            <div>
-              <h3>Tradition</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor
-              </p>
-            </div>
-          </div>
-
-          <div class="intro-b-item intro-ab">
-            <img src="./assets/intro/ab1.jpg" alt="intro 1" />
-          </div>
-
-          <div class="intro-b-item intro-text">
-            <div>
-              <h3>Creativity</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolo
-              </p>
-            </div>
-          </div>
-
-          <!-- row 2 -->
-          <div class="intro-b-item intro-text intro-bake">
-            <div>
-              <h3>What We Bake Best For You</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolorL orem ipsum dolor sit amet,
-                consectetuer adipiscing elit. Aenean commodo ligula eget dolor
-              </p>
-            </div>
-          </div>
-
-          <div class="intro-b-item">
-            <img src="./assets/intro/ab2.jpg" alt="intro 1" />
-          </div>
-
-          <div class="intro-b-item intro-text">
-            <div>
-              <h3>Quality</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor
-              </p>
-            </div>
-          </div>
-
-          <!-- row 3 -->
-          <div class="intro-b-item intro-ab-3">
-            <img src="./assets/intro/ab3.jpg" alt="intro 3" />
-          </div>
-
-          <div class="intro-b-item intro-text">
-            <div>
-              <h3>Tasty Cakes</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor
-              </p>
-            </div>
-          </div>
-
-          <div class="intro-b-item intro-ab-4">
-            <img src="./assets/intro/ab4.jpg" alt="intro " />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Stats  -->
-    <section id="stats">
-      <div class="stats-container">
-        <div class="stats-list">
-          <div class="stats-tiem">
-            <h3>3500</h3>
-            <p>Coffees</p>
-          </div>
-          <div class="stats-tiem">
-            <h3>650</h3>
-            <p>Happy Client</p>
-          </div>
-          <div class="stats-tiem">
-            <h3>10</h3>
-            <p>Experience</p>
-          </div>
-          <div class="stats-tiem">
-            <h3>1010</h3>
-            <p>Expert Worker</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Service -->
-    <section id="service">
-      <div class="service-container">
-        <div class="service-wrapper">
-          <h2>OUR SERVICES</h2>
-          <div class="service-list">
-            <div class="service-item">
-              <i class="fa fa-adjust"></i>
-              <h3>Tasty Cakes</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <button class="btn-bake">Learn more</button>
-            </div>
-
-            <div class="service-item">
-              <i class="fa fa-adjust"></i>
-              <h3>Tasty Cakes</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <button class="btn-bake">Learn more</button>
-            </div>
-
-            <div class="service-item">
-              <i class="fa fa-adjust"></i>
-              <h3>Tasty Cakes</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <button class="btn-bake">Learn more</button>
-            </div>
-
-            <div class="service-item">
-              <i class="fa fa-adjust"></i>
-              <h3>Tasty Cakes</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <button class="btn-bake">Learn more</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Gallery -->
-    <section id="gallery">
-      <div class="gallery-container">
-        <h2>OUR GALLERY</h2>
-
-        <div class="gallery-list">
-          <!-- Item 1 -->
-          <figure class="gallery-item gallery-item-1">
-            <img src="./assets/gallery/g1.jpg" alt="gallery 1" />
-            <figcaption class="gallery-overlay">
-              <h3>
-                <span>OUR</span>
-                GALLERY
-              </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </figcaption>
-          </figure>
-
-          <!-- Item 2 -->
-          <figure class="gallery-item">
-            <img src="./assets/gallery/g2.jpg" alt="gallery 2" />
-            <figcaption class="gallery-overlay">
-              <h3>
-                <span>OUR</span>
-                GALLERY
-              </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </figcaption>
-          </figure>
-
-          <!-- Item 3 -->
-          <figure class="gallery-item">
-            <img src="./assets/gallery/g3.jpg" alt="gallery 3" />
-            <figcaption class="gallery-overlay">
-              <h3>
-                <span>OUR</span>
-                GALLERY
-              </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </figcaption>
-          </figure>
-
-          <!-- Item 4 -->
-          <figure class="gallery-item">
-            <img src="./assets/gallery/g4.jpg" alt="gallery 4" />
-            <figcaption class="gallery-overlay">
-              <h3>
-                <span>OUR</span>
-                GALLERY
-              </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </figcaption>
-          </figure>
-
-          <!-- Item 5 -->
-          <figure class="gallery-item">
-            <img src="./assets/gallery/g5.jpg" alt="gallery 5" />
-            <figcaption class="gallery-overlay">
-              <h3>
-                <span>OUR</span>
-                GALLERY
-              </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </figcaption>
-          </figure>
-
-          <!-- Item 6 -->
-          <figure class="gallery-item gallery-item-6">
-            <img src="./assets/gallery/g6.jpg" alt="gallery 6" />
-            <figcaption class="gallery-overlay">
-              <h3>
-                <span>OUR</span>
-                GALLERY
-              </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section id="team">
-      <div class="team-container">
-        <div class="team-wrapper">
-          <h2>BAKE TEAM</h2>
-          <div class="team-list">
-            <figure class="team-item">
-              <img src="./assets/team/t1.jpg" alt="team 1" />
-
-              <div class="team-title">
-                <h3>John Doe</h3>
-                <p>-Cake Maker</p>
-              </div>
-
-              <figcaption class="team-details">
-                <h3>John Simon</h3>
-                <p>-Cake Maker</p>
-                <p>
-                  Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
-                  friuisque pretiuam
-                </p>
-                <div class="team-socials">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                </div>
-              </figcaption>
-            </figure>
-
-            <figure class="team-item team-item-2">
-              <img src="./assets/team/t2.jpg" alt="team 1" />
-
-              <div class="team-title">
-                <h3>John Doe</h3>
-                <p>-Cake Maker</p>
-              </div>
-
-              <figcaption class="team-details">
-                <h3>John Simon</h3>
-                <p>-Cake Maker</p>
-                <p>
-                  Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
-                  friuisque pretiuam
-                </p>
-                <div class="team-socials">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                </div>
-              </figcaption>
-            </figure>
-
-            <figure class="team-item team-item-3">
-              <img src="./assets/team/t3.jpg" alt="team 1" />
-
-              <div class="team-title">
-                <h3>John Doe</h3>
-                <p>-Cake Maker</p>
-              </div>
-
-              <figcaption class="team-details">
-                <h3>John Simon</h3>
-                <p>-Cake Maker</p>
-                <p>
-                  Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
-                  friuisque pretiuam
-                </p>
-                <div class="team-socials">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                </div>
-              </figcaption>
-            </figure>
-
-            <figure class="team-item team-item-4">
-              <img src="./assets/team/t4.jpg" alt="team 4" />
-
-              <div class="team-title">
-                <h3>John Doe</h3>
-                <p>-Cake Maker</p>
-              </div>
-
-              <figcaption class="team-details">
-                <h3>John Simon</h3>
-                <p>-Cake Maker</p>
-                <p>
-                  Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
-                  friuisque pretiuam
-                </p>
-                <div class="team-socials">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                </div>
-              </figcaption>
-            </figure>
-
-            <figure class="team-item team-item-5">
-              <img src="./assets/team/t1.jpg" alt="team 5" />
-
-              <div class="team-title">
-                <h3>John Doe</h3>
-                <p>-Cake Maker</p>
-              </div>
-
-              <figcaption class="team-details">
-                <h3>John Simon</h3>
-                <p>-Cake Maker</p>
-                <p>
-                  Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
-                  friuisque pretiuam
-                </p>
-                <div class="team-socials">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                </div>
-              </figcaption>
-            </figure>
-
-            <figure class="team-item">
-              <img src="./assets/team/t2.jpg" alt="team 5" />
-
-              <div class="team-title">
-                <h3>John Doe</h3>
-                <p>-Cake Maker</p>
-              </div>
-
-              <figcaption class="team-details">
-                <h3>John Simon</h3>
-                <p>-Cake Maker</p>
-                <p>
-                  Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
-                  friuisque pretiuam
-                </p>
-                <div class="team-socials">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Feedback -->
-    <section id="feedback">
-      <div class="feedback-container">
-        <div class="feedback-wrapper">
-          <h2>TESTIMONIALS</h2>
-
-          <div class="feedback-carousel">
-            <div class="owl-carousel owl-theme">
-              <div class="item feedback-item">
-                <div class="feedback-item">
-                  <p>
-                    <i class="fa fa-quote-left"></i> Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit. Doloribus, quis blanditiis!
-                    Similique soluta repellendus recusandae omnis eius!
-                    Explicabo, aliquid recusandae.
-                    <i class="fa fa-quote-right"></i>
-                  </p>
-                  <p class="feedback-name">WILLSOM</p>
-                </div>
-              </div>
-
-              <div class="item feedback-item">
-                <div class="feedback-item">
-                  <p>
-                    <i class="fa fa-quote-left"></i> Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit. Doloribus, quis blanditiis!
-                    Similique soluta repellendus recusandae omnis eius!
-                    Explicabo, aliquid recusandae.
-                    <i class="fa fa-quote-right"></i>
-                  </p>
-                  <p class="feedback-name">WILLSOM</p>
-                </div>
-              </div>
-
-              <div class="item feedback-item">
-                <div class="feedback-item">
-                  <p>
-                    <i class="fa fa-quote-left"></i> Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit. Doloribus, quis blanditiis!
-                    Similique soluta repellendus recusandae omnis eius!
-                    Explicabo, aliquid recusandae.
-                    <i class="fa fa-quote-right"></i>
-                  </p>
-                  <p class="feedback-name">WILLSOM</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="contact-wrapper">
-        <h2>CONTACT</h2>
-
-        <div class="contact-container">
-          <div class="contact-form">
-            <div class="contact-form-item">
-              <input
-                class="contact-form-input"
-                type="text"
-                placeholder="Name"
-              />
-              <input
-                class="contact-form-input"
-                type="text"
-                placeholder="Last Name"
-              />
-            </div>
-
-            <div class="contact-form-item">
-              <input
-                class="contact-form-input"
-                type="text"
-                placeholder="Email"
-              />
-              <input
-                class="contact-form-input"
-                type="text"
-                placeholder="Phone"
-              />
-            </div>
-
-            <div class="contact-form-item">
-              <textarea placeholder="Message">abc</textarea>
-            </div>
-
-            <button class="btn btn-bake btn-contact">Send</button>
-          </div>
-        </div>
-
-        <div style="width: 100%" class="contact-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.4666583245644!2d105.71033207435005!3d9.291852984820466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a109680bdfcedb%3A0x164be594d824ba50!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBC4bqhYyBMacOqdQ!5e0!3m2!1svi!2s!4v1750490878338!5m2!1svi!2s"
-            style="width: 100%"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-
-        <div class="contact-info">
-          <div class="contact-item">
-            <i class="fa fa-home"></i>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="contact-item">
-            <i class="fa fa-phone"></i>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="contact-item">
-            <i class="fa fa-envelope-open"></i>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer id="footer">
-      <div class="footer-container">
-        <div class="footer-wrapper">
-          <div class="footer-top">
-            <div class="footer-item fi-1">
-              <div class="footer-title">About Us</div>
-
-              <div class="footer-content">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
-                  natus illo. Consequatur maiores veniam est.
-                </p>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
-                  natus illo. Consequatur maiores veniam est.
-                </p>
-                <div class="footer-socials">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="footer-item fi-2">
-              <div class="footer-title">Working Time</div>
-
-              <div class="footer-list-time">
-                <div class="footer-time">
-                  <p>Monday</p>
-                  <p>9h30 - 18h30</p>
-                </div>
-
-                <div class="footer-time">
-                  <p>Tuesday</p>
-                  <p>9h30 - 18h30</p>
-                </div>
-
-                <div class="footer-time">
-                  <p>Wednesday</p>
-                  <p>9h30 - 18h30</p>
-                </div>
-
-                <div class="footer-time">
-                  <p>Thursday</p>
-                  <p>9h30 - 18h30</p>
-                </div>
-
-                <div class="footer-time">
-                  <p>Friday</p>
-                  <p>9h30 - 18h30</p>
-                </div>
-
-                <div class="footer-time">
-                  <p>Saturday</p>
-                  <p>9h30 - 18h30</p>
-                </div>
-
-                <div class="footer-time">
-                  <p>Sunday</p>
-                  <p>9h30 - 18h30</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="footer-item fi-3">
-              <div class="footer-title">Twitter Us</div>
-
-              <div class="footer-list-twitter">
-                <div class="footer-item-twitter">
-                  <p>ultricies nec, pellentesque eu, pretium quis</p>
-                </div>
-                <div class="footer-item-twitter">
-                  <p>ultricies nec, pellentesque eu, pretium quis</p>
-                </div>
-                <div class="footer-item-twitter">
-                  <p>ultricies nec, pellentesque eu, pretium quis</p>
-                </div>
-                <div class="footer-item-twitter">
-                  <p>ultricies nec, pellentesque eu, pretium quis</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="footer-item fi-4">
-              <div class="footer-title">SUBSCRIBE US</div>
-              <div class="input-email">
-                <input type="text" placeholder="name@gmail.com" />
-                <button class="btn-bake btn-email">Send</button>
-              </div>
-              <p style="margin-top: 20px">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Ratione enim soluta at voluptate vitae quae omnis tempora,
-                voluptas sint corrupti.
-              </p>
-            </div>
-          </div>
-          <div class="footer-bottom"></div>
-        </div>
-      </div>
-    </footer>
+    <div class="body"></div>
 
     <!-- import Jquery -->
     <script
@@ -664,21 +102,6 @@
       referrerpolicy="no-referrer"
     ></script>
 
-    <!-- JS -->
-    <script>
-      const nav = document.getElementById("nav")
-      const listNav = nav.getElementsByTagName("li")
-
-      for (let i = 0; i < listNav.length; i++) {
-        listNav[i].addEventListener("click", function () {
-          const current = document.querySelector("#nav .active")
-          current.className = current.className.replace("active", "")
-
-          this.className += "active"
-        })
-      }
-    </script>
-
     <!-- Owl Carousel -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
@@ -686,7 +109,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script>
+
+    <!-- <script>
       $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
@@ -703,6 +127,7 @@
           },
         },
       })
-    </script>
+    </script> -->
+    <!-- live sass compiler -->
   </body>
 </html>

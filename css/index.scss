@@ -1,0 +1,20 @@
+$font-family: "Work Sans", sans-serif;
+$font-size: 16px;
+$primary-color: #ff4f81;
+$text-light: #fff;
+$text-gray: #999;
+$text-dark: #000;
+
+html,
+body {
+  font-family: $font-family;
+  background: white;
+  letter-spacing: 1px;
+  font-size: $font-size;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
