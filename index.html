@@ -21,7 +21,7 @@
     <!-- Font awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <!-- <link href="./assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
     <link href="./assets/fontawesome/css/brands.css" rel="stylesheet" />
@@ -72,21 +72,35 @@
           </div>
           <nav class="header-nav">
             <ul class="header-nav-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Gallery</a></li>
+              <li><a class="nav-link active" href="#">Home</a></li>
+              <li><a class="nav-link" href="#">About</a></li>
+              <li><a class="nav-link" href="#">Services</a></li>
+              <li><a class="nav-link" href="#">Gallery</a></li>
               <li class="dropdown">
-                <a href="#">Pages</a>
-                <i class="fa-solid fa-chevron-down"></i>
+                <a class="nav-link dropdown-toggle" href="#"
+                  >Pages
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <!-- <span class="icon-f078"></span> -->
 
                 <div class="dropdown-menu">
-                  <p>Page 1</p>
-                  <ap>Page 2</ap>
-                  <ap>Page 3</ap>
+                  <a class="dropdown-item" href="#">Page 1</a>
+                  <a class="dropdown-item" href="#">Page 2</a>
+                  <a class="dropdown-item" href="#">Page 3</a>
                 </div>
               </li>
-              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a class="nav-link" href="#"
+                  >Contact
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Page 1</a>
+                  <a class="dropdown-item" href="#">Page 2</a>
+                  <a class="dropdown-item" href="#">Page 3</a>
+                </div>
+              </li>
             </ul>
           </nav>
         </div>
