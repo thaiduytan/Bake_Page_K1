@@ -109,7 +109,7 @@
             <span class="menu-toggle-bar menu-toggle-bar--bottom"></span>
           </a>
 
-          <div class="navbar-collapse collapse show" id="navbarInstruction">
+          <div class="navbar-collapse collapse" id="navbarInstruction">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#">HOME</a>
@@ -195,6 +195,27 @@
         .addEventListener("click", function () {
           document.body.classList.toggle("nav-open")
         })
+
+      // js dom
+      document.addEventListener("DOMContentLoaded", () => {
+        const toggleButton = document.getElementById("menu-toggle")
+        const navbar = document.getElementById("navbarInstruction")
+
+        toggleButton.addEventListener("click", (e) => {
+          e.preventDefault()
+          navbar.classList.toggle("show")
+        })
+
+        const dropdownToggle = document.getElementById("navbarDropdownMenuLink")
+        const dropdownMenu = dropdownToggle.nextElementSibling
+
+        dropdownToggle.addEventListener("click", (e) => {
+          e.preventDefault()
+          dropdownMenu.classList.toggle("show")
+          const isOpen = dropdownMenu.classList.contains("show")
+          dropdownToggle.setAttribute("aria-expanded", isOpen)
+        })
+      })
     </script>
   </body>
 </html>
