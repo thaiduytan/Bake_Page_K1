@@ -1,0 +1,17 @@
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+  background: white;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#welcome .welcome-title {
+  text-align: center;
+}/*# sourceMappingURL=welcome.css.map */

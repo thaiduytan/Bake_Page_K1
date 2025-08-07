@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/intro.css" />
+    <link rel="stylesheet" href="./css/welcome.css" />
 
     <!-- Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -151,7 +153,98 @@
         </div>
       </div>
     </header>
-    <div class="body"></div>
+    <section class="body">
+      <!-- intro -->
+      <section id="intro">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img
+              class="intro-bg"
+              src="./assets/images/banner1.jpg"
+              alt="banner-1"
+            />
+            <div class="intro-content">
+              <h1>Graphic Work Designing</h1>
+              <p>
+                Any successful career starts with good education. Together with
+                us you will have deeper knowledge of the subjects
+              </p>
+              <button class="btn">
+                Read More <i class="fa fa-angle-double-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="intro-bg"
+              src="./assets/images/banner1.jpg"
+              alt="banner-1"
+            />
+            <div class="intro-content">
+              <h1>Graphic Work Designing</h1>
+              <p>
+                Any successful career starts with good education. Together with
+                us you will have deeper knowledge of the subjects
+              </p>
+              <button class="btn">
+                Read More <i class="fa fa-angle-double-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- welcome -->
+      <section id="welcome">
+        <div class="welcome-title">
+          <!-- flex column -->
+          <h2>WELCOME TO EDUCATION</h2>
+          <p>when climbing the carrer ladder</p>
+          <!-- after (line) -->
+        </div>
+
+        <div class="welcome-subtitle">
+          <!-- width: 80%, margin: 0 auto -->
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, sunt in culpa qui officia deserunt mollit
+            anim id est laboth. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur sunt in
+            culpa qui .
+          </p>
+        </div>
+
+        <div class="welcome-content">
+          <!-- flex, flex-wrap: no-wrap, justify-content: space-between -->
+          <div class="welcome-content-item item-1">
+            <!--flex, flex-basis: 33.33%, flex-direction: column -->
+            <i class="fa fa-desktop"></i>
+            <h3>Best Education</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              quos.
+            </p>
+            <!-- .... -->
+          </div>
+          <div class="welcome-content-item item-2">
+            <i class="fa fa-book"></i>
+            <h3>Best Education</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              quos.
+            </p>
+          </div>
+          <div class="welcome-content-item item-3">
+            <i class="fa fa-book"></i>
+            <h3>Best Education</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              quos.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
 
     <!-- import Jquery -->
     <script
@@ -169,24 +262,26 @@
       referrerpolicy="no-referrer"
     ></script>
 
-    <!-- <script>
+    <script>
       $(".owl-carousel").owlCarousel({
         loop: true,
-        margin: 10,
-        nav: false,
+        margin: 0,
+        nav: true,
+        dots: false,
 
-        center:true,
-        URLhashListener:true,
-        autoplayHoverPause:true,
-        startPosition: 'URLHash',
+        center: true,
+        URLhashListener: true,
+        autoplayHoverPause: false,
+        startPosition: "URLHash",
 
         responsive: {
+          // min-width: 0px mobile, tablet, desktop, 4k...
           0: {
             items: 1,
           },
         },
       })
-    </script> -->
+    </script>
     <!-- live sass compiler -->
 
     <script>

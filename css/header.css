@@ -239,11 +239,6 @@ body {
   }
 }
 
-.body {
-  height: 500px;
-  background-color: rgb(114, 144, 114);
-}
-
 .menu-toggle {
   position: relative;
   width: 29px;
@@ -299,7 +294,7 @@ body {
 }
 
 .navbar-collapse {
-  visibility: hidden;
+  display: none;
   height: 0;
   overflow: hidden;
 }
